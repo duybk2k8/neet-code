@@ -18,3 +18,8 @@ print([num for num, count in sorted(
 #lambda x:x[1] là lấy giá trị x[1] = 3 => sort theo cái đấy
 #:(k) là cắt list, slicing thì lấy đến trước vị trí k => k cần -1
 #chỉ return num => lấy key th
+
+#key=lambda x: x[0] → so sánh theo key của dictionary.
+#key=lambda x: x[1] → so sánh theo frequency.
+#key=len → so sánh theo độ dài.
+#key=str.lower → so sánh theo chuỗi viết thường.

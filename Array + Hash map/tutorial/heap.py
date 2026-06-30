@@ -66,4 +66,5 @@ from collections import Counter
 counter = Counter(D) # tạo dictionary count tần suất
 #key là giá trị, value là frequency
 for k, v in counter.items():
-    print(k, v)
+    heap.heappush(heap, (v, k)) # đưa tuple sao cho first item là freq, second element is key ==> đảo
+    #sort theo v, nếu giống freq => compare k
