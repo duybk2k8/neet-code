@@ -20,3 +20,4 @@ for s in strs:
 for value in anagram_map.values():
     result.append(value)
 print(result) 
+#O(n⋅klogk)

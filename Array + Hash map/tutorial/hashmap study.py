@@ -65,3 +65,6 @@ for n in num:
     set_sample.remove(n) #remove, nếu phần tử k có thì error => nếu k muốn lỗi dùng discard 
 len(set_sample) #số phần tử có trong
 
+
+count = [0] * 26 # a ... z
+#tạo mảng gồm 26 kí tự

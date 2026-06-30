@@ -11,3 +11,4 @@ for s in strs:
         #ord là lấy giá trị ascii: vdu: a=80 b=81 ==> map a 0 => 80-80 map b 1 => 81 - 80
         res[tuple(count)].append(s) #count is list => mutable => tuple
 print (list(res.values()))
+#O(n.m)
